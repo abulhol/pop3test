@@ -1,0 +1,22 @@
+Content-Type: multipart/mixed;
+ boundary="===============1019615746237534981=="
+MIME-Version: 1.0
+To: sandbox@example.net
+From: test@example.net
+Subject: Test Url in Text
+Message-ID: <160768894167.9576.162739648174341219@vagrant.vm>
+
+--===============1019615746237534981==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+No URL here
+--===============1019615746237534981==
+Content-Type: application/octet-stream
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="sample.exe"
+
+QmluYXJ5IENvbnRlbnQ=
+--===============1019615746237534981==--
