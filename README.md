@@ -7,10 +7,13 @@ change into the directory and install (tested on Ubuntu 18.04):
 `composer require laminas/laminas-mail`
 
 Then start the test mail server using (it continues to run in the background):
+
 `python3 start_flyingrat.py`
+
 The script also sends the example email test.eml to the mail server.
 
 The PHP script testpop3.php then will try to fetch the email:
+
 `php testpop3.php`
 
 And fail with this exception:
