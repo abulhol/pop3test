@@ -4,7 +4,9 @@ https://github.com/laminas/laminas-mail/issues/6
 To run this example, you need to download this example, 
 change into the directory and install (tested on Ubuntu 18.04):
 
-`composer require laminas/laminas-mail`
+```
+composer install
+```
 
 Then start the test mail server using (it continues to run in the background):
 
