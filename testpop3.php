@@ -1,9 +1,8 @@
 <?php
 
-require 'vendor/autoload.php';
-use Zend\Mail\Storage\Pop3;
-use Zend\Mail\Storage\Imap;
-use Zend\Mail\Storage\AbstractStorage;
+require __DIR__ . '/vendor/autoload.php';
+
+use Laminas\Mail\Storage\Pop3;
 
 $login_params = [
 	'host' => '127.0.0.1',
