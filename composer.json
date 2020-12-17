@@ -1,0 +1,6 @@
+{
+    "name": "abulhol/pop3test",
+    "require": {
+        "laminas/laminas-mail": "^2.12"
+    }
+}
